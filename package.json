@@ -1,0 +1,36 @@
+{
+  "name": "moon-island",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "isle",
+    "react",
+    "esbuild",
+    "components",
+    "dynamic bundle",
+    "component registry"
+  ],
+  "scripts": {
+    "start": "ts-node server"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/react": "^18.0.19",
+    "@types/react-dom": "^18.0.6",
+    "antd": "^4.23.0",
+    "esbuild": "^0.15.7",
+    "express": "^4.18.1",
+    "prettier": "^2.7.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-shadow": "^19.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
