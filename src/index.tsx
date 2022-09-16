@@ -32,7 +32,8 @@ Promise.all([loadComponents(["Button", "Input"]), loadStyles()]).then(
               type="primary"
               onClick={() => {
                 loadComponents([value]).then((components) => {
-                  updateComponent((comps) => [...comps, components[value]]);
+                  const comps = value.split(',')
+                  updateComponent((c) => [...c, ...comps.map(comp => components[comp])]);
                 });
               }}
             >

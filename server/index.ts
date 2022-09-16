@@ -44,6 +44,7 @@ const run = async () => {
   });
 
   app.get("/components", async (req, res, next) => {
+    console.log(req.query.names);
     try {
       const components = req.query.names;
       const moduleName = req.query.moduleName;
